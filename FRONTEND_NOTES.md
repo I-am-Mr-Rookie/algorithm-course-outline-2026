@@ -28,6 +28,8 @@ There is no build step. Use one of these:
 
 Deployment is unchanged: GitHub Pages serves `index.html` from the repo root.
 
+Checks: `node --test` (Node 18+, no install) runs `tests/page.test.mjs`.
+
 ## Verification performed
 
 - Inline scripts pass `node --check`. A Python HTML parser found no tag-balance errors.
